@@ -4,14 +4,21 @@
     src:url(/fonts/web/opensans.woff2) format(woff2),
         url(/fonts/web/opensans.woff) format(woff);
 }
-.body{
-    
+@font-face{
+    font-family: "Gilroy - Extra Bold";
+    font-size: normal;
+    src: url(/fonts/web/gilroyextrabold.woff2) format(woff2),
+         url(./fonts/web/gilroyextrabold.woff) format(woff)
+}
+.body{  
 }
 .body-index{
-    
 }
 .padding{
     padding: 20px 140px 0px 140px;
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
 }
 .header-index{
     background: linear-gradient(
@@ -30,20 +37,25 @@
     opacity: 0.3;
 }
 .navigation{
-    margin-left: 60px;
-    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 30px;
     font-family: "Open Sans";
 }
 .search{
-
+    width: 90%;
+    display: flex;
+    align-items: center;
 }
 .form-index{
-
+    display: flex;
+    align-items: center; 
 }
 .input-search{
     width: 128px;
     height: 15px;
-    margin-left: 20px;
+    margin-left: 15px;
     padding: 0px;
     border: none;
     outline: none;
@@ -63,20 +75,223 @@
     font-size: 15px;
     letter-spacing: 0.15px;
     opacity: 0.6;
-
 }
 .input-button{
     width: 85px;
     height: 49px;
     background-color: #f7e296;
     border: 2px solid #000000;
+    margin-left: 195px;
     display: none;
 }
-.input-search:focus .input-button{
+.input-button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.input-button:active{
+    background-color: #000000;
+    color: gray;
+}
+.input-button::after{
+    content: "";
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 433px;
     display: block;
-    
-
+    position: absolute;
+    left: 200px;
+    top: 136px;
+}   
+.input-search:focus + .input-button{
+    display: block;
+}
+.a-menu{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 .menu{
-    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.menu:hover{
+    opacity: 0.6; 
+}
+.menu:active{
+    opacity: 0.3;
+}
+.menu-logo{
+}
+.p-menu{
+    margin: 0px 0px 0px 14px;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+}
+.compare{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: flex-end;
+}
+.compare:hover{
+    opacity: 0.6;
+}
+.compare:active{
+    opacity: 0.3;
+}
+.p-compare{
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    margin: 0px 0px 0px 10px;
+}
+.bucket{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+.p-bucket{
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    margin: 0px 0px 0px 12px;
+}
+.bucket:hover{
+    opacity: 0.6;
+}
+.bucket:active{
+    opacity: 0.3;
+}
+.catalog{
+    margin-left: 60px;
+    margin-top: 45px;
+}
+.catalog-novigation{
+    display: flex;
+
+}
+.goods{
+    display: flex;
+
+}
+.goods:hover  .a-goods{
+    opacity: 0.6;
+}
+.goods:active .a-goods{
+    opacity: 0.3;
+}
+.a-goods{
+    text-decoration: none;
+    color: #000000;
+}
+.goods-plus{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    opacity: 0.3;
+}
+.goods-plus::after{
+    content: '';
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: #000000;
+    ;
+}
+.goods-plus::before{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 16px;
+    background-color: #000000;
+    position: absolute;
+
+}
+.h1-catalog{
+    font-family: "Gilroy - Extra Bold";
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    margin: 0px;
+}
+.delivery-guarantee{
+    display: flex;
+    margin-left: 294px;
+}
+.delivery{
+
+}
+.a-delivery{
+    text-decoration: none;
+    color: #000000;
+}
+.delivery:hover .a-delivery{
+    opacity: 0.6;
+}
+.delivery:active .a-delivery{
+    opacity: 0.3;
+}
+.guarantee{
+    margin-left: 35px;
+
+}
+.a-guarantee{
+    text-decoration: none;
+    color: #000000;
+}
+.guarantee:hover .a-guarantee{
+    opacity: 0.6;
+}
+.guarantee:active .a-guarantee{
+    opacity: 0.3;
+}
+.contact{
+    margin-left: 108px;
+
+}
+.a-contact{
+    text-decoration: none;
+    color: #000000;
+}
+.contact:hover .a-contact{
+    opacity: 0.6;
+}
+.contact:active .a-contact{
+    opacity: 0.3;
+}
+.catalog-menu{
+    height: 129px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    margin-top: 40px;
+    display: flex;
+}
+.ul-menu{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.ul-menu-two{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 0px 0px 65px;
+}
+.ul-menu-three{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 0px 0px 80px;
+}
+.li-menu{
+
+}
+.li-menu:hover{
+    opacity: 0.6;
+}
+.li-menu:active{
+    opacity: 0.3;
 }
