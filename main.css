@@ -23,7 +23,8 @@
 .header-index{
     background: linear-gradient(
         #ffffff 20px,
-        #f7e296 20px);
+        #f0c52e 20px);
+        height: 319px;
 }
 .logo-index{
     margin-left: 60px;
@@ -59,7 +60,7 @@
     padding: 0px;
     border: none;
     outline: none;
-    background-color: #f7e296;
+    background-color: #f0c52e;
     font-size: 15px;
     letter-spacing: 0.15px;
     opacity: 0.3;
@@ -71,15 +72,15 @@
     padding: 0px;
     border: none;
     outline: none;
-    background-color: #f7e296;
-    font-size: 15px;
+    background-color:#f0c52e;
+    font-size: 15px;1++
     letter-spacing: 0.15px;
     opacity: 0.6;
 }
 .input-button{
     width: 85px;
     height: 49px;
-    background-color: #f7e296;
+    background-color: #f0c52e;
     border: 2px solid #000000;
     margin-left: 195px;
     display: none;
@@ -173,10 +174,14 @@
 }
 .goods{
     display: flex;
+    position: relative;
 
 }
-.goods:hover  .a-goods{
+.goods:hover{
     opacity: 0.6;
+}
+.goods:hover + .catalog-menu{
+    display: flex;
 }
 .goods:active .a-goods{
     opacity: 0.3;
@@ -263,35 +268,107 @@
     opacity: 0.3;
 }
 .catalog-menu{
-    height: 129px;
+    position: absolute;
     font-family: "Open Sans";
     font-size: 14px;
     line-height: 36px;
     letter-spacing: 0.15px;
     margin-top: 40px;
+    display: none;
+    background-color: #f0c52e; 
+    width: 1160px;
+    top: 176px;
+    left: 140px;
+    margin-top: 0;
+    height: 163px;
+}
+.catalog-menu:hover{
     display: flex;
 }
 .ul-menu{
     list-style-type: none;
-    padding: 0px;
+    padding: 22px 0 0 60px;
     margin: 0px;
 }
 .ul-menu-two{
     list-style-type: none;
-    padding: 0px;
-    margin: 0px 0px 0px 65px;
+    padding: 22px 0 0 0;
+    margin: 0px 0px 0px 52px;
 }
 .ul-menu-three{
     list-style-type: none;
-    padding: 0px;
-    margin: 0px 0px 0px 80px;
+    padding: 22px 0 0 0;
+    margin: 0px 0px 0px 70px;
 }
 .li-menu{
 
+}
+.a-li-menu{
+    text-decoration: none;
+    color: #000000;
+}
+.p-menu{
+    margin: 0;
 }
 .li-menu:hover{
     opacity: 0.6;
 }
 .li-menu:active{
     opacity: 0.3;
+}
+.slide{
+}
+.slide-first{
+    position: absolute;
+    top: 228px;
+    left: 230px;
+    display: flex;
+}
+.slide-first-text{
+    padding-left: 125px;
+    padding-top: 80px;
+
+}
+.h2{
+    font-family: "Gilroy - Extra Bold";
+    font-size: 48px;
+    margin: 0px;
+    line-height: 56px;
+}
+.p-slide-first{
+    font-family: "Open Sans";
+    padding-top: 18px;
+    margin: 0 0 50px 0;
+    font-size: 15px;
+    line-height: 30px;
+}
+.a-slide-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 30px;
+    text-decoration: none;
+    background: linear-gradient(
+        white 11px,
+        #f0c52e 1px,
+        #f0c52e 18px,
+        white 18px);
+}
+.a-slide-first:hover{
+    background: #f0c52e;
+}
+.p-a-slide-first{
+    font-family: "Gilroy - Extra Bold";
+    font-size: 18px;
+    letter-spacing: 3.5px;
+    color: #000000;
+    margin: 0px;
+    line-height: 24px;
+}
+.p-a-slide-first:active{
+    opacity: 0.3;
+}
+.img{
+
 }
