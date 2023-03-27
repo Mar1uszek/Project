@@ -168,6 +168,14 @@
     margin-left: 60px;
     margin-top: 45px;
 }
+.trait{
+    width: 100px;
+    height: 7px;
+    background-color: white;
+    position: absolute;
+    top: 265px;
+    left: 740px;
+}
 .catalog-novigation{
     display: flex;
 
@@ -281,6 +289,8 @@
     left: 140px;
     margin-top: 0;
     height: 163px;
+    z-index: 10;
+    
 }
 .catalog-menu:hover{
     display: flex;
@@ -317,12 +327,14 @@
     opacity: 0.3;
 }
 .slide{
+    
 }
 .slide-first{
     position: absolute;
     top: 228px;
     left: 230px;
     display: flex;
+    z-index: 1;
 }
 .slide-first-text{
     padding-left: 125px;
@@ -369,6 +381,45 @@
 .p-a-slide-first:active{
     opacity: 0.3;
 }
+.p-slide{
+    display: flex;
+}
+.p-slide-info{
+    margin-right: 75px;
+    margin-top: 55px;
+    
+}
+.info-one{
+    margin: 0px;
+    padding-bottom: 9px;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 300;
+}
+.info-two{
+    margin: 0px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 300;
+}
+.p-slide-first2{
+
+}
 .img{
+
+}
+.slide-first-01{
+    position: absolute;
+    left: 840px;
+    top: -40px;
+    
+    
+
+}
+.text01{
+    font-family: "Gilroy - Extra Bold";
+    font-size: 179px;
+    margin: 0px;
+    color: white;
 
 }
