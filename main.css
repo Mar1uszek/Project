@@ -18,7 +18,7 @@
     padding: 20px 140px 0px 140px;
     max-width: 1160px;
     margin: 0 auto;
-    position: relative;
+    
 }
 .header-index{
     background: linear-gradient(
@@ -173,8 +173,8 @@
     height: 7px;
     background-color: white;
     position: absolute;
-    top: 265px;
-    left: 740px;
+    top: 275px;
+    left: 972px;
 }
 .catalog-novigation{
     display: flex;
@@ -285,8 +285,8 @@
     display: none;
     background-color: #f0c52e; 
     width: 1160px;
-    top: 176px;
-    left: 140px;
+    top: 184px;
+    left: 372px;
     margin-top: 0;
     height: 163px;
     z-index: 10;
@@ -327,12 +327,13 @@
     opacity: 0.3;
 }
 .slide{
+    position: relative;
     
 }
 .slide-first{
-    position: absolute;
-    top: 228px;
-    left: 230px;
+    position: relative;
+    top: -110px;
+    left: 90px;
     display: flex;
     z-index: 1;
 }
@@ -421,5 +422,33 @@
     font-size: 179px;
     margin: 0px;
     color: white;
-
+}
+.img-main{
+    display: flex;
+}
+.img-main-1{
+    margin-right: 40px;
+}
+.a-img-main-1{
+    display: flex;
+    width: 160px;
+    height: 160px;
+    background-color: #f0c52e;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+    opacity: 0.5;
+}
+.a-img-main-1:hover{
+    opacity: 1;
+}
+.p-img-main-1{
+    font-family: "Gilroy - Extra Bold";
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    color: #000000;
+}
+.img-activ:active{
+    opacity: 0.3;
 }
