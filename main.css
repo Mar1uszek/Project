@@ -425,6 +425,8 @@
 }
 .img-main{
     display: flex;
+    margin-bottom: 68px;
+    margin-top: -10px;
 }
 .img-main-1{
     margin-right: 40px;
@@ -451,4 +453,108 @@
 }
 .img-activ:active{
     opacity: 0.3;
+}
+.delivery-grey{
+    display: flex;
+    background: linear-gradient(
+        white 0px,
+        white 100px,
+        #e5e5e5 100px);
+    margin: 0 -140px 0 -140px;
+    padding: 0 140px 0 140px;
+    height: 387px;
+}
+.border{
+    border-right: 7px solid black;
+    height: 317px;
+}
+.delivery-border{
+    display: flex;
+    width: 278px;
+    height: 40px;
+    padding-top: 80px;
+}
+.a-delivery-border{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: "Gilroy - Extra Bold";
+    letter-spacing: 2.15px;
+    font-size: 20px;
+    width: 160px;
+    background: linear-gradient(
+        #e5e5e5 17px,
+        #f0c52e 17px,
+        #f0c52e 24px,
+        #e5e5e5 24px);
+    justify-content: center;
+    align-items: center;
+}
+.a-delivery-border-1{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: "Gilroy - Extra Bold";
+    letter-spacing: 2.15px;
+    font-size: 20px;
+    width: 160px;
+    background: linear-gradient(
+        white 17px,
+        #f0c52e 17px,
+        #f0c52e 24px,
+        #e5e5e5 24px);
+    justify-content: center;
+    align-items: center;
+
+}
+.a-delivery-border:hover,.a-delivery-border-1:hover{
+    background: #f0c52e;
+}
+.a-delivery-border:active,.a-delivery-border-1:active{
+    width: 278px;
+    background: #000000;
+    color: #f0c52e;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.guarantee-border{
+    display: flex;
+    width: 278px;
+    height: 40px;
+    padding-top: 23px;
+}
+.credit{
+    display: flex;
+    width: 278px;
+    height: 40px;
+    padding-top: 23px;
+    padding-bottom: 71px;
+}
+.text-main{
+    padding-left: 115px;
+    padding-top: 67px;
+    
+}
+.h3{
+    font-family: "Gilroy - Extra Bold";
+    font-size: 47px;
+    margin: 0 0 20px 0;
+}
+.p-main{
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.img-main-2{
+    margin-left: 129px;
+    margin-top: 82px;
+}
+.company{
+    display: flex;
+    margin-top: 94px;
+}
+.img-company{
+    margin-right: 40px;
 }
