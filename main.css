@@ -336,11 +336,38 @@
     left: 90px;
     display: flex;
     z-index: 1;
+    display: none;
+}
+.slide-second{
+    position: relative;
+    top: -110px;
+    left: 90px;
+    display: flex;
+    z-index: 1;
+    
+}
+.slide-third{
+    position: relative;
+    top: -50px;
+    left: 31px;
+    display: flex;
+    z-index: 1;
+    height: 500px;
+    display: none;
 }
 .slide-first-text{
     padding-left: 125px;
     padding-top: 80px;
-
+}
+.slide-second-text{
+    padding-left: 145px;
+    padding-top: 80px;
+}
+.slide-third-text{
+    position: relative;
+    z-index: 1;
+    padding-left: 45px;
+    padding-top: 20px;
 }
 .h2{
     font-family: "Gilroy - Extra Bold";
@@ -407,15 +434,27 @@
 
 }
 .img{
+    padding-left: 20px;
+}
+.img-3{
+    padding-left: 0px;
 
 }
 .slide-first-01{
     position: absolute;
     left: 840px;
     top: -40px;
-    
-    
-
+}
+.slide-first-02{
+    position: absolute;
+    left: 820px;
+    top: -40px;
+}
+.slide-first-03{
+    position: relative;
+    z-index: -1;
+    left: 305px;
+    top: -515px;
 }
 .text01{
     font-family: "Gilroy - Extra Bold";
