@@ -483,12 +483,18 @@
 .a-img-main-1:hover{
     opacity: 1;
 }
+.a-new{
+    text-decoration: none;
+}
 .p-img-main-1{
     font-family: "Gilroy - Extra Bold";
     text-decoration: none;
     letter-spacing: 0.2px;
     font-size: 18px;
     color: #000000;
+}
+.img-activ{
+    
 }
 .img-activ:active{
     opacity: 0.3;
@@ -596,4 +602,37 @@
 }
 .img-company{
     margin-right: 40px;
+    filter: grayscale(100%);
+    opacity: 0.3;
+}
+.img-company:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+.contact-down{
+    margin-top: 93px;
+}
+.black-line{
+    width: 80px;
+    height: 7px;
+    background-color: #000000;
+    margin-bottom: 51px;
+}
+.about-us{
+    font-family: "Gilroy - Extra Bold";
+    font-size: 47px;
+    margin: 0px;
+    padding-bottom: 60px;
+}
+.p-contact{
+    font-family: "Open Sans - Light";
+    line-height: 30px;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+.p-contact-two{
+    font-family: "Open Sans - Light";
+    line-height: 30px;
+    margin: 0px;
+
 }
