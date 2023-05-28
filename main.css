@@ -611,6 +611,7 @@
 }
 .contact-down{
     margin-top: 93px;
+    display: flex;
 }
 .black-line{
     width: 80px;
@@ -634,5 +635,180 @@
     font-family: "Open Sans - Light";
     line-height: 30px;
     margin: 0px;
-
+    padding-bottom: 20px;
+}
+.ul-bottom{
+    margin-bottom: 80px;
+    padding: 0px;
+}
+.li-bottom::before{
+    display: flex;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: solid 5px #e5e5e5;;
+    color: #000000;
+    margin-right: 25px;
+    
+    
+}
+.li-bottom{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 13px;
+    font-family: "Gilroy - Extra Bold";
+    color: #000000;
+    font-size: 16px;
+}
+.button-bottom{
+    display: flex;
+    width: 278px;
+    height: 40px;
+}
+.a-button-bottom{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: "Gilroy - Extra Bold";
+    letter-spacing: 2.15px;
+    font-size: 20px;
+    width: 260px;
+    background: linear-gradient(
+        #ffffff 17px,
+        #f0c52e 17px,
+        #f0c52e 24px,
+        #ffffff 24px);
+    justify-content: center;
+    align-items: center;
+}
+.a-button-bottom:hover{
+    background: #f0c52e;
+}
+.second-contact{
+    margin-left: 140px;
+}
+.button-bottom-two{
+    display: flex;
+    width: 278px;
+    height: 40px;
+    margin-top: 83px;
+    margin-bottom: 93px;
+}
+.a-button-bottom-two{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: "Gilroy - Extra Bold";
+    letter-spacing: 2.15px;
+    font-size: 20px;
+    width: 260px;
+    background: linear-gradient(
+        #ffffff 17px,
+        #f0c52e 17px,
+        #f0c52e 24px,
+        #ffffff 24px);
+    justify-content: center;
+    align-items: center;
+}
+.a-button-bottom-two:hover{
+    background: #f0c52e;
+}
+footer{
+    margin: 0 -140px 0 -140px;
+    padding: 0 140px 0 140px;
+    background: #464646;
+}
+.footer{
+display: flex;
+justify-content: space-around;
+}
+.logo-index-footer{
+    margin-top: 63px;
+}
+.logo-index-footer:hover{
+    opacity: 0.6;
+}
+.logo-index-footer:active{
+    opacity: 0.3;
+}
+.footer-one{
+    margin-top: 63px;
+    
+}
+.p-footer{
+    font-family: "Open Sans";
+    color: #ffffff;
+    padding-top: 40px;
+    margin:0px 0px 82px 0px;
+}
+.yellow-footer{
+    width: 80px;
+    height: 7px;
+    background: #f0c52e;
+    margin-bottom: 79px;
+}
+.footer-two{
+    margin-left: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0px;
+}
+.footer-3{
+    
+}
+.a-footer{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Gilroy - Extra Bold";
+    padding-right: 38px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 3.6px;
+}
+.delivery-footer{
+    margin-top: 90px;
+}
+.a-footer:hover{
+    opacity: 0.6;
+}
+.a-footer:active{
+    opacity: 0.3;
+}
+.icon-footer{
+    display: flex;
+    margin-top: 70px;
+}
+.img-footer{
+    margin-right: 25px;
+    opacity: 0.3;
+}
+.img-footer:hover{
+    opacity: 1;
+}
+.img-footer:active{
+    opacity: 0.1;
+}
+.footer-contact{
+    display: flex;
+}
+.p-footer-3{
+    color: #e5e5e5;
+}
+.a-footer-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Open Sans";
+    margin-right: 44px;
+}
+.img-footer-3{
+    margin-right: 14px;
+    
+}
+.div-footer{
+    display: flex;
 }
