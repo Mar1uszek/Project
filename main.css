@@ -581,7 +581,6 @@
     opacity: 1;
 }
 .contact-down{
-    margin-top: 90px;
     display: flex;
 }
 .black-line{
@@ -595,6 +594,15 @@
     font-size: 47px;
     margin: 0px;
     padding-bottom: 35px;
+}
+.about-us::before{
+    display: flex;
+    content: "";
+    width: 80px;
+    height: 7px;
+    border: solid 1px #000000;;
+    background: #000000;
+    margin: 83px 0px 41px 0px;
 }
 .text-contact{
     font-family: "Open Sans - Light";
@@ -706,8 +714,16 @@ footer{
 .text-footer{
     font-family: "Open Sans";
     color: #ffffff;
-    padding-top: 30px;
-    margin:0px 0px 82px 0px;
+    padding-top: 10px;
+}
+.text-footer::after{
+    display: flex;
+    content: "";
+    width: 80px;
+    height: 7px;
+    border: solid 1px #f0c52e;;
+    background: #f0c52e;
+    margin: 82px 0px 79px 0px;
 }
 .yellow-footer{
     width: 80px;
