@@ -822,3 +822,46 @@ footer{
 .logo-y:active{
     opacity: 0.3;
 }
+.radio{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 970px;
+    top: 210px;
+
+}
+.custom-radio{
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+}
+.custom-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom-radio+label::after {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    background: rgb(255, 255, 255);
+  }
+  /* стили для активной радиокнопки (при нажатии на неё) */
+  .custom-radio:not(:disabled):active+label::after {
+    background-color: rgb(83, 83, 83);
+    border-color: rgb(0, 0, 0);
+  }
+  /* стили для радиокнопки, находящейся в состоянии checked */
+  .custom-radio:checked+label::after {
+    border: 2px solid rgb(0, 0, 0);
+    background-image: radial-gradient(white 20%, rgb(0, 0, 0) 30%, white 40%);
+  }
